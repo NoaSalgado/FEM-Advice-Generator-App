@@ -1,0 +1,28 @@
+.advice {
+  background-color: var(--clr-blue-800);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 540px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+
+  position: relative;
+}
+
+.advice__number {
+  color: var(--clr-primary-green);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
+
+.advice__text {
+  color: var(--clr-primary-cyan);
+  font-size: 1.75rem;
+  text-align: center;
+  word-wrap: break-word;
+}

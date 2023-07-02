@@ -1,0 +1,14 @@
+.divider {
+  background-image: url('../../images/pattern-divider-mobile.svg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .divider {
+    background-image: url('../../images/pattern-divider-desktop.svg');
+  }
+}
